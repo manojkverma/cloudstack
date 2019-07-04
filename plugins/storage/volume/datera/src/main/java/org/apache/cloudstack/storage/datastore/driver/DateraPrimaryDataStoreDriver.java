@@ -1819,4 +1819,10 @@ public class DateraPrimaryDataStoreDriver implements PrimaryDataStoreDriver {
 
         return volumeSize;
     }
+
+    @Override
+    public void handleQualityOfServiceForVolumeMigration(VolumeInfo volumeInfo,
+            QualityOfServiceState qualityOfServiceState) {
+
+    }
 }
